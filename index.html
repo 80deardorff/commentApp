@@ -4,7 +4,11 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- WEBSITE TITLE -->
-		<title></title>
+		<title>Comment App</title>
+		<!-- FAVICON -->
+		<link rel="shortcut icon" href="image/user.png">
+		<!-- GOOGLE FONT -->
+		<link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
 		<!-- FONT AWESOME LINK -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 		<!-- BOOTSTRAP CDN LINK -->
@@ -17,13 +21,17 @@
 		<link rel="stylesheet" href="css/main.css">
 	</head>
 	<body class="my-5">
-		<div class="text-center p-5 mx-auto">
-			<form>
-				<h1>Post Your Comment Below</h1>
-				<input type="text" class="my-3" placeholder="Enter Comment Here">
-				<button class="btn btn-success" type="button" name="button">Post</button>
-				<p class="mt-5"><span>3:45pm:  </span>Hello</p>
-			</form>
+		<div class="main text-center pt-3 mx-auto">
+			<h1 class="title">Comment Section</h1>
+			<div id="inner" class="inner text-left pt-2 pb-5 px-3 mx-auto">
+				<!-- <p><img class="pr-2" src="image/user.png" alt="User image">Hello<span id="time" class="pl-2">3:45pm</span></p> -->
+			</div>
+			<div class="form py-3 mx-auto text-left">
+				<form class="d-inline-block">
+					<input type="text" id="input" placeholder="Enter Comment Here">
+				</form>
+				<button class="btn btn-outline-primary mx-auto" type="button" name="button" onclick="post()">Post</button>
+			</div>
 		</div>
 
 
