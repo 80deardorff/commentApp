@@ -1,0 +1,17 @@
+body {
+  background-color: #D0DBED;
+}
+
+div {
+  background-color: #ffffff;
+  width: 80%;
+  border: 2px solid black;
+  box-shadow: 25px 25px 100px 0px rgba(0,0,0,0.6);
+  border-radius: 15px;
+  min-height: 500px;
+}
+
+p span {
+  color: blue;
+  font-size: 11px;
+}
