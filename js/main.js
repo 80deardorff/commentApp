@@ -43,6 +43,8 @@ function post() {
   div2.appendChild(i);
   // RESET VALUE OF INPUT TO BLANK
   input.value = '';
+  // SCROLL TO BOTTOM OF DIV
+  inner.scrollTo(0, inner.scrollHeight);
 }
 
 input.addEventListener("keyup", function(event) {
