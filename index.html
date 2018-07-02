@@ -23,14 +23,16 @@
 	<body class="my-5">
 		<div class="main text-center pt-3 mx-auto">
 			<h1 class="title">Comment Section</h1>
-			<div id="inner" class="inner text-left pt-3 pb-5 px-3 mx-auto">
+			<div id="inner" class="inner row text-left pt-3 pb-5 mx-auto">
+
 				<!-- TEXT FROM INPUT IS ENETERED IN THIS DIV VIA JS -->
+				
 			</div>
 			<div class="form py-3 mx-auto text-left">
-				<form class="d-inline-block">
-					<input type="text" id="input" placeholder="Enter Comment Here">
-				</form>
-				<button class="btn btn-outline-primary mx-auto" type="button" name="button" onclick="post()">Post</button>
+				<!-- <form> -->
+					<input class="d-inline-block" type="text" id="input" placeholder="Enter Comment Here" autocomplete="off">
+				<!-- </form> -->
+				<button id="myBtn" class="btn btn-outline-primary mx-auto" type="button" name="button" onclick="post()">Post</button>
 			</div>
 		</div>
 
